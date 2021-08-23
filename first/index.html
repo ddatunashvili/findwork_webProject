@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- SYYLE -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script type="text/javascript">
+        // Startup Scripts
+        $(document).ready(function()
+        {
+        	$('.hero').css('height', ($(window).height() - $('header').outerHeight()) + 'px'); // Set hero to fill page height
+
+        	$('#scroll-hero').click(function()
+        	{
+        		$('html,body').animate({scrollTop: $("#hero-bloc").height()}, 'slow');
+        	});
+        });
+
+
+        // Window resize
+        $(window).resize(function()
+        {
+        	$('.hero').css('height', ($(window).height() - $('header').outerHeight()) + 'px'); // Refresh hero height
+        });
+    </script>
+  </head>
+  <body>
+  	<br>
+  <!-- header with nav-->
+  <div class="bloc l-bloc" id="nav-bloc">
+  	<div class="container">
+  		<nav class="navbar row">
+  			<div class="navbar-header">
+  				<a class="navbar-brand " href="index.html">
+            <img src="pics/logo.svg" alt="">
+          </a>
+  				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+  					<span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+  				</button>
+  			</div>
+  			<div class="collapse navbar-collapse navbar-1">
+  				<ul class="site-navigation nav">
+  					<li>
+  						<a class="current" href="#">მთავარი</a>
+  					</li>
+            <li>
+  						<a class="" href="#">ჩვენ შესახებ</a>
+  					</li>
+            <li>
+  						<a class="" href="#">კონტაქტი</a>
+  					</li>
+
+            <!-- login btn -->
+            <li>
+                <button type="button" class="login-button" id="login">Login</button>
+                  <!-- login button loading -->
+                  <script type="text/javascript">
+                  let button = document.getElementById('login');
+                  button.addEventListener('click', function(){
+                    document.getElementById('login').style.fontSize = ""
+                    button.classList.add('waiting');
+                    button.innerHTML = '<span class="loading">.</span>';
+                  });
+                </script>
+  					</li>
+            </ul>
+  			</div>
+  		</nav>
+  	</div>
+  </div>
+  <!-- header end -->
+  <br>
+  <br>
+  <br>
+  <!-- two column -->
+  <div class="container " >
+    <div class="row ">
+      <div class="col-md-1"></div>
+          <div class="col-md-5 " style="color: purple;" >
+          	<h1 class="text-center " style="color:lightgrey;animation: letter-flicker 2s linear infinite;">სპაიკი</h1>
+              <p class="post-text " style="margin:auto; ">პირველი ამოცანა: ააწყეთ header-ის ნაწილი - გამოიყენეთ display:flex; Log in - დაუმატეთ რადიუსი;header-ის ქვემოთ გვაქვს სექცია, რომელშიც უნდა განათავსოთ ორი ბლოკი გვერდიგვერდ ( ტექსტები და სურათი);პირველ ამოცანაში გამოიყენეთ ფონტი Lato Bold; <br><br>
+              პირველი ამოცანა: ააწყეთ header-ის ნაწილი - გამოიყენეთ display:flex; Log in - დაუმატეთ რადიუსი;header-ის ქვემოთ გვაქვს სექცია, რომელშიც უნდა განათავსოთ ორი ბლოკი გვერდიგვერდ ( ტექსტები და სურათი);პირველ ამოცანაში გამოიყენეთ ფონტი Lato Bold; *</p>
+
+          </div>
+          <div class=" col-md-5 text-center">
+            <img class="post-image  "style="border:5px solid #1086e8;border-radius:20px;animation: border-flicker 2s linear infinite;" src="pics/logo.png" alt="">
+          </div>
+      <div class="col-md-1"></div>
+
+    </div> <!-- row end-->
+  </div><!-- container end-->
+
+
+
+
+  </body>
+</html>
