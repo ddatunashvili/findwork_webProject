@@ -24,7 +24,7 @@
     * [x] პოსტები (ღილაკი, სათაური, აღწერა, ფოტო)
 ---
                 **მესამე წანილი**  
-[url](https://ddatunashvili.github.io/findwork_webProject/third/index.html)
+[webpage link ](https://ddatunashvili.github.io/findwork_webProject/third/index.html)
 * main page
     * [x] მენიუ
     * [x] ლოგო
