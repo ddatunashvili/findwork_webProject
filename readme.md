@@ -1,7 +1,8 @@
 
 ## findwork.ge პროექტი
 ----
-                **პირველი წანილი** [url](https://ddatunashvili.github.io/findwork_webProject/first/index.html)
+                **პირველი წანილი** 
+[webpage link ](https://ddatunashvili.github.io/findwork_webProject/first/index.html)
 * main page (header)
     * [x] ბურგერ მენიუ
     * [x] svg ლოგო
@@ -11,7 +12,8 @@
     * [ ] საიტის ტექსტი
     * [ ] ღილაკის დაჭერის ანიმაცია `!დასახვეწია`
 ---
-                **მეიორე წანილი**  [url](https://ddatunashvili.github.io/findwork_webProject/second/index.html)
+                **მეიორე წანილი**                 
+[webpage link ](https://ddatunashvili.github.io/findwork_webProject/second/index.html)
 * main page
     * [x] მენიუ
     * [x] ლოგო
@@ -21,7 +23,8 @@
     * [ ] ღილაკის დაჭერის ანიმაცია `!დასახვეწია`
     * [x] პოსტები (ღილაკი, სათაური, აღწერა, ფოტო)
 ---
-                **მესამე წანილი**  [url](https://ddatunashvili.github.io/findwork_webProject/third/index.html)
+                **მესამე წანილი**  
+[url](https://ddatunashvili.github.io/findwork_webProject/third/index.html)
 * main page
     * [x] მენიუ
     * [x] ლოგო
